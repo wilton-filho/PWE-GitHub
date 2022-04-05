@@ -1,0 +1,59 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <fieldset style="width:90%; background-color:lightgray">
+            <legend><b>DADOS PESSOAIS:</b></legend>
+            <label for="txtNome"><b>Nome:</b></label><br>
+            <input type="text" id="txtNome" style="width:100%" placeholder="Insira o nome completo">
+
+            <br><br>
+            <label for="txtNascimento"><b>Nascimento:</b></label><br>
+            <input type="date" id="txtNascimento" style="width:50%">
+
+            <br><br>
+            <label for="txtNro">Número da casa:</b></label><br>
+            <input type="number" id="txtNro" max="9999" min="0" step="2" value="18" style="width:50%">
+
+            <br><br>
+            <label for="txtSenha"><b>Senha:</b></label><br>
+            <input type="password" id="txtSenha" placeholder="De 8 a 20 caracteres" minlength="8" maxlength="20" style="width:50%">
+
+            <br><br>
+            <label for="txtEmail"><b>Email:</b></label><br>
+            <input type="email" id="txtEmail" style="width:100%">
+
+            <br><br>
+            <label for="txtWebsite"><b>Website pessoal:</b></label><br>
+            <input type="url" id="txtWebsite" style="width:100%">
+
+            <br><br>
+            <label for="selectCarro">Selecione</label>
+            <select id="selectCarro">
+                <option>Fusca</option>
+                <option>Golf</option>
+                <option>Troller</option>
+            </select>
+
+            <br><br>
+            Sexo:
+            <input type="radio" name="sexo">Masculino
+            <input type="radio" name="sexo">Feminino
+
+
+            <br><br>
+            <!--<input type="button" value="Enviar">-->
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
