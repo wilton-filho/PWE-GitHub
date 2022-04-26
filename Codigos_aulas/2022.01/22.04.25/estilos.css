@@ -1,0 +1,8 @@
+p, h1 {
+    color: green;
+    background-color: pink;
+}
+p {
+    color: blue;
+    letter-spacing: 5px;
+}
