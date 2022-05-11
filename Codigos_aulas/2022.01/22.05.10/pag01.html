@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section.teste p {
+            background-color:pink;
+        }
+        section.teste p::after {
+            content: " é professor no IFTM";
+        }
+        section.teste p::first-letter, section.teste blockquote::first-letter {
+            color:red;
+            font-weight: bold;   
+        }
+        section.teste blockquote::first-line {
+            color:blue;
+        }
+        div p:nth-child(even) {
+           background-color: yellow; 
+        }
+        div p:first-child {
+           background-color: green; 
+        }
+        #secao1 {
+            background-color: pink;
+        }
+        input[type="text"]:focus {
+            outline: 2px solid orange;
+            border:none;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="secao1">
+        <p>Instituto Federal</p>
+    </section>
+
+    <section id="teste">
+        <p>Wilton de Paula Filho</p>
+        <blockquote>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam qui nulla, quibusdam iusto libero tempore, corrupti obcaecati iste incidunt, dolores minus modi ipsa odit sit voluptatem omnis quo ducimus alias!</blockquote>
+    </section>
+    <div>
+        <p>Texto 1</p>
+        <p>Texto 2</p>
+        <p>Texto 3</p>
+        <p>Texto 4</p>
+        <p>Texto 5</p>
+        <p>Texto 6</p>
+        <p>Texto 7</p>
+        <p>Texto 8</p>
+    </div>
+    <form action="">
+        <label for="">Nome:</label>
+        <input type="text" name="" id="">
+    </form>
+</body>
+</html>
