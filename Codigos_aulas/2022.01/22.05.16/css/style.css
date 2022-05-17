@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+header {
+    font-family: 'Anton', sans-serif;
+}
+header ul {
+    list-style: none;
+    padding:0px;
+    text-align:center;
+    background-color: black;
+}
+header ul li {
+    display: inline-block;
+}
+header a:link, header a:visited {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 15px 20px;
+}
+header a:hover {
+    background-color:white;
+    color: black;
+}
+header img {
+    width:100%;
+}
+header h1, header h2 {
+    text-align: center;
+    padding:15px;
+}
+header h1 {
+    font-size: 50px;
+    transition: all 0.5s;
+}
+header h1:hover {
+    letter-spacing:5px;
+}
+header h2 {
+    font-size: 20px;
+    color: darkred;
+}
+main section p {
+    padding:20px;
+    line-height: 150%;
+}
+main section:nth-child(odd){
+    background-color: rgb(213, 213, 213);
+}
+main section a:link, main section a:visited {
+    color: blue;
+    text-decoration: none;
+}
+main section ul li {
+    margin-bottom: 5px;
+}
+main section ul {
+    margin-bottom: 20px;
+}
+.descricaoLista {
+    color: red;
+    font-weight: bold;
+}
+footer {
+    background-color: black;
+    padding:40px 10px;
+}
+footer p {
+    color: white;
+    text-align: center;
+}

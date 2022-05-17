@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin:0px;
+            box-sizing: border-box;
+        }
+        div[class^="caixa"] {
+            width:20%; /* Isso porque tem 5 caixas*/
+            height:200px;
+            float: left;
+        }
+        .boxGeral {
+            width:1000px;
+            margin:auto;
+            border:5px solid black;
+            overflow: auto;
+        }        
+        .caixa1 {
+            background-color:pink;
+        }
+        .caixa2 {
+            background-color:green;
+        }
+        .caixa3 {
+            background-color:blue;
+        }
+        .caixa4 {
+            background-color:red;
+        }
+        .caixa5 {
+            background-color:yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="boxGeral">
+        <div class="caixa1">Caixa 1</div>    
+        <div class="caixa2">Caixa 2</div>    
+        <div class="caixa3">Caixa 3</div>    
+        <div class="caixa4">Caixa 3</div>    
+        <div class="caixa5">Caixa 3</div>    
+    </div>
+</body>
+</html>
