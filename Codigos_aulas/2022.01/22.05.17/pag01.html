@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin:0px;
+            box-sizing: border-box;
+        }
+        .container {
+            width:1000px;
+            margin:auto;
+            border:1px solid black;
+        }
+        .boxMaserati div:nth-child(1) {
+            width:70%;
+        }
+        .boxMaserati div:nth-child(2) {
+            width:30%;
+        }
+        .boxMaserati > div {
+            float:left;
+            border:1px solid black;
+        }
+        .boxServicos > div {
+            width:25%;
+            float: left;
+            border:1px solid black;
+        }
+        .breakLine::after {
+            content: "";
+            display: block;
+            clear:both;
+        }
+    </style>
+</head>
+<body>
+    <div class="container breakLine boxMaserati">
+        <div>caixa 1</div>
+        <div>caixa 2</div>
+    </div>  
+
+    <div class="container breakLine boxServicos">
+        <div>Agenda</div>
+        <div>Prevenção</div>
+        <div>Reparo</div>
+        <div>Pneus e rodas</div>
+    </div>
+
+    <!--<div class="boxServicos">
+        <div>caixa 1</div>
+        <div>caixa 2</div>
+        <div>caixa 3</div>
+        <div>caixa 4</div>
+    </div>-->    
+</body>
+</html>
