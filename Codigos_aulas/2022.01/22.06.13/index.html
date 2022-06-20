@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            border:5px solid black;
+        }
+        .container {
+            width:1200px;
+            margin:auto;
+            border:5px solid red;
+        }
+        .computadores {
+            display:flex;
+            border:5px solid blue;
+        }   
+        .computadores > div {
+            border:5px solid green;
+            width:33.3%;
+        } 
+        .apresentacao {
+            display: flex;
+            flex-direction: row;
+            border:5px solid pink;
+        }
+        .apresentacao > div {
+            width:50%;
+            border:5px solid blue;
+        }
+        .apresentacao div:nth-child(1) {
+            background-color: blue;
+        } 
+        .apresentacao div:nth-child(2) {
+            background-color: orange;
+        } 
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="apresentacao">
+                <div>
+                    <div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum tenetur necessitatibus, quae modi accusamus nesciunt facere, pariatur dolorum veritatis temporibus eligendi inventore ducimus similique maxime velit. Aliquam quasi ipsa minima!</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/tablet.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <h2>Nova seção de conteúdo</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eligendi quaerat nam illum dolore est qui nisi, eius deserunt hic accusantium ducimus ipsa reiciendis reprehenderit minima odio quos nemo molestias?</p>
+                <div class="computadores">
+                    <div>
+                        <h3>Informação</h3>
+                        <img src="img/passo1.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus assumenda maxime odit, excepturi at neque, fugit molestias id quia dolorum? Odit obcaecati sint perferendis alias, eaque atque repellendus voluptate!</p>
+                    </div>
+                    <div>
+                        <h3>Informação</h3>
+                        <img src="img/passo1.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus assumenda maxime odit, excepturi at neque, fugit molestias id quia dolorum? Odit obcaecati sint perferendis alias, eaque atque repellendus voluptate!</p>
+                    </div>
+                    <div>
+                        <h3>Informação</h3>
+                        <img src="img/passo1.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, doloribus assumenda maxime odit, excepturi at neque, fugit molestias id quia dolorum? Odit obcaecati sint perferendis alias, eaque atque repellendus voluptate!</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+
+
+    </main>
+</body>
+</html>
