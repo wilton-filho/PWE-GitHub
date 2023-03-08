@@ -4,7 +4,18 @@
         <meta charset="utf-8">
         <meta name="keywords" content="robots, html, apostila">
         <meta name="description" content="Apostila básica de como utilizar robots em páginas web">
-        <meta name="robots" content="noindex,follow">
+        <!-- A meta abaixo permite aos robôs das ferramentas de busca indexarem tanto a homepage quanto qualquer outra página interna ao site -->
+        <meta name="robots" content="index,follow">
+
+        <!-- A meta abaixo permite aos robôs das ferramentas de busca indexarem apenas as páginas internas do site (menos a homepate)-->
+        <!-- <meta name="robots" content="noindex,follow"> -->
+
+        <!-- A meta abaixo permite aos robôs das ferramentas de busca indexarem apenas a homepage do site (menos as páginas internas) -->
+        <!-- <meta name="robots" content="index,nofollow"> -->
+
+        <!-- A meta abaixo NÃO permite aos robôs das ferramentas de busca indexarem NENHUMA página do site -->
+        <!-- <meta name="robots" content="noindex,nofollow"> -->
+
     </head>
 
     <body>
