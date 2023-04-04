@@ -1,12 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <form>
+        <!-- Nome do usuário -->
+        <label for="txtNome">Nome:</label><br>
+        <input id="txtNome" type="text" maxlength="25" placeholder="Nome completo">
+
+        <!-- Senha de acesso -->
+        <br><br>
+        <label for="txtSenha">Senha:</label><br>
+        <input id="txtSenha" type="password" maxlength="8" placeholder="Máx: 8 caracteres">
+
+        <!-- Unidade Federativa -->
+        <br><br>
+        <label for="uf">UF:</label><br>
+        <select id="uf">
+            <option>Selecione</option>
+            <option>AC</option>
+            <option>AM</option>
+            <option>MG</option>
+            <option>SP</option>
+            <option>RJ</option>
+        </select>
+
+        <!-- Sexo -->
+        <br><br>
+        <fieldset>
+            <legend>Sexo</legend>
+
+            <input id="sexMasc" type="radio" name="sexo">
+            <label for="sexMasc">Masculino</label>
+
+            <input id="sexFem" type="radio" name="sexo">
+            <label for="sexFem">Feminino</label>
+        </fieldset>
+
+        <!-- Hobbies do usuário -->
+        <br><br>
+        <fieldset>
+            <legend>Hobbies:</legend>
+
+            <input id="hobbie1" type="checkbox">
+            <label for="hobbie1">Hobbie 1</label>
+
+            <input id="hobbie2" type="checkbox">
+            <label for="hobbie2">Hobbie 2</label>
+
+            <input id="hobbie3" type="checkbox">
+            <label for="hobbie3">Hobbie 3</label>
+        </fieldset>
+
+        <br><br>
+        <label for="dataNasc">Data de nascimento</label><br>
+        <input id="dataNasc" type="date">
+
+        <br><br>
+        <label for="email">Email:</label><br>
+        <input id="email" type="email" required>
+
+        <br><br>
+        <label for="url">URL:</label><br>
+        <input id="url" type="url">
+
+        <br><br>
+        <label for="coment">Comentários</label><br>
+        <textarea id="coment" rows="10" style="width:100%"></textarea>
+
+        <br><br>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Cadastrar">
+
+
+    </form>
 </body>
+
 </html>
