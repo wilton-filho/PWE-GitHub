@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .meio {color: green}
+        p strong {color: red !important}
+        p, strong {color: blue} 
+        /*0º lugar: !important*/
+        /*1º lugar: classe*/
+        /*2º lugar: seletor contextual*/
+        /*3º lugar: seletor mais embaixo*/
+
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+    <p>Início <strong class="meio">Meio</strong> Fim</p>
+</body>
+</html>
