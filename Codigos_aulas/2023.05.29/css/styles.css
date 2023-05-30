@@ -1,0 +1,88 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+header {
+    padding:70px;
+}
+header h1 {
+    font-size: 24px;
+    color: #C65300;
+    font-weight: 400;
+    text-align: center;
+    background-image: url('../img/logo.png');
+    background-repeat: no-repeat;
+    background-size:40px;
+    background-position: right center;
+    width:320px;
+    margin:auto;
+    padding:10px;
+    padding-right: 40px;
+}
+.chamada {
+    text-align: center;
+    padding: 60px;
+}
+.chamada h2 {
+    font-size: 38px;
+    margin: 25px 0px 60px 0px;
+}
+.chamada p {
+    font-size: 16px;
+    width:750px;
+    margin:auto;
+}
+hr {
+    width:150px;
+    margin:auto;
+    border: 1px solid #C65300;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+input {
+    font-size: 16px;
+    padding: 8px;
+    border:none;
+    
+}
+input[type="email"] {
+    background-color: #EEEEEE;
+    outline: none;
+    width:75%;
+}
+input[type="button"] {
+    background-color: #C65300;
+    color: white;
+    width:25%;
+}
+input[type="button"]:hover {
+    cursor: pointer;
+    background-color: #f57e29;
+}
+input[type="button"]:active {
+    background-color: #8a3a01;
+}
+form {
+    width: 600px;
+    margin:auto;
+    margin-top:60px;
+    margin-bottom: 60px;
+}
+.tituloDescricaoSecao {
+    text-align: center;
+}
+.tituloDescricaoSecao h2 {
+    font-size: 30px;
+}
+main section {
+    padding: 110px;
+}
+main section:nth-child(even) {
+    background-color: #EEEEEE;
+}
