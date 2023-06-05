@@ -121,3 +121,52 @@ footer p {
         width: 200px;
     }
 }
+@media screen and (min-width: 1000px){
+    h1 {
+        font-size: 22px;
+    }
+    .apresentacao h2 {
+        margin: 70px 0px;
+    }
+    .apresentacao p {
+        width: 700px;
+        margin:auto;
+        margin-bottom: 40px;
+    }
+    p {
+        line-height: 1.5em;
+        font-size: 14px;
+    }
+    .apresentacao h2 {
+        font-size:32px;
+    }    
+    .tecnologias div div {
+        display: block;
+    }
+    .tecnologias div img {
+        width: 120px;
+    }
+    .tecnologias div p {
+        padding: 20px;
+    }
+    .tecnologias h2 {
+        font-size: 22px;
+    }
+    .portfolio img {
+        width: 350px;
+    }
+    hr {
+        width:200px;
+        margin-top: 20px;
+    }
+    .portfolio div {
+        flex-direction: row;
+    }
+    .portfolio div:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+    section div {
+        width: 1200px !important;
+        margin: auto !important;
+    }
+}
