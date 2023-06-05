@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    text-transform: uppercase;
+    margin:20px 0px 10px 0px;
+    font-weight: 500;
+    color: darkred;
+}
+hr {
+    border: 1px solid darkred;
+    width:50%;
+    margin:auto;
+    margin-bottom: 20px;
+}
+p {
+    font-size: 12px;
+    text-align: justify;
+}
+section {
+    padding: 25px;
+    margin-bottom: 30px;
+}
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.apresentacao div {
+    margin: 20px 0px 10px 0px;
+}
+.apresentacao p {
+    margin: 10px 0px 40px 0px; 
+    text-align: center;
+}
+.apresentacao h2 {
+    margin:30px 0px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 900;
+    /* text-shadow: 1px 1px 1px black; */
+}
+input[type="button"] {
+    border:none;
+    outline: none;
+    color: white;
+    background-color: rgb(170, 46, 2);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+main section:nth-child(even) {
+    background-color: rgb(230, 230, 230);
+}
+.tecnologias div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.tecnologias img {
+    width: 70px;
+    margin-top: 30px;
+}
+.tecnologias h2 {
+    font-size: 16px;
+    margin: 15px 0px;
+}
+.tecnologias p {
+    text-align: justify;
+}
+.portfolio div {
+    display: flex;
+    flex-direction: column;
+
+}
+.portfolio img {
+    width: 70%;
+    margin:auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+footer {
+    background-color: black;
+}
+footer p {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
