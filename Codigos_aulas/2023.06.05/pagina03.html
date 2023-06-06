@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            font-size: 12px;
+            color: blue;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+        .container div {
+            width: 100%;
+        }
+        .container div:nth-child(1) {
+            background-color: yellow;
+        }
+        .container div:nth-child(2) {
+            background-color: pink;
+        }
+        @media screen and (min-width: 600px) {
+            p {
+                font-size: 30px;
+                color: red;
+            }
+            .container {
+                flex-direction: row;
+            }
+            .container div:nth-child(1) {
+                background-color: green;
+            }
+            .container div:nth-child(2) {
+                background-color: blue;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <p>Texto</p>
+    <div class="container">
+        <div>Box 1</div>
+        <div>Box 2</div>
+    </div>
+</body>
+</html>

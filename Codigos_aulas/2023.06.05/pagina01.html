@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin:0px;
+            padding:0px;
+        }
+        /* Visualização: CELULAR */
+        .container {
+            border:3px solid black;
+            display: flex;
+            flex-direction: column;
+        }
+        .container div {
+            border:2px solid pink;
+            width: 100%;
+            text-align: center;
+        }
+
+        @media screen and (min-width: 600px) {
+            .container {
+                flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div>
+            <p>imagem</p>
+            <h2>subtítulo</h2>
+            <p>parágrafo</p>
+        </div>
+        <div>
+            <p>imagem</p>
+            <h2>subtítulo</h2>
+            <p>parágrafo</p>
+        </div>
+        <div>
+            <p>imagem</p>
+            <h2>subtítulo</h2>
+            <p>parágrafo</p>
+        </div>
+    </div>
+</body>
+</html>
