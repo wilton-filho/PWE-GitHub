@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Versao MOBILE*/
+        p {
+            font-size: 12px;
+            text-align: center;
+            color: blue;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            border: 5px solid black;
+        }
+        .container div {
+            width: 100%;
+        }
+        .container div:nth-child(1) {
+            background-color: yellow;
+        }
+        .container div:nth-child(2) {
+            background-color: pink;
+        }
+        /*Versao DESKTOP*/
+        @media screen and (min-width: 1000px) {
+            p {
+                font-size: 30px;
+                color: red;
+            }
+            .container {    
+                flex-direction: row;
+                justify-content: space-around;
+                padding: 30px;
+            }
+            .container div {
+                width: 30%;
+                border:1px solid black;
+            }
+            .container div:nth-child(1) {
+                background-color: rgb(165, 217, 165);
+            }
+            .container div:nth-child(2) {
+                background-color: rgb(153, 153, 183);
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>Texto</p>
+    <div class="container">
+        <div>Caixa 1</div>
+        <div>Caixa 2</div>
+        <div>Caixa 3</div>
+    </div>
+</body>
+</html>

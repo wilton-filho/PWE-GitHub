@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+body {
+    font-family: arial;
+}
+/*Versão MOBILE*/
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+section {
+    padding: 20px;
+    border: 1px solid black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.tecnologias {
+    text-align: center;
+}
+.tecnologias img {
+    width: 80px;
+}
+.tecnologias h2 {
+    font-size: 16px;
+}
+.tecnologias p {
+    text-align: justify;
+}
+.tecnologias div div {
+    border: 1px solid red;
+    padding: 20px;
+}
+/*Versão: DESKTOP*/
+@media screen and (min-width: 1000px) {
+    .container {
+        flex-direction: row;
+    }
+    .boxTecnologias {
+        width: 1200px;
+        margin:auto;
+    }
+}
