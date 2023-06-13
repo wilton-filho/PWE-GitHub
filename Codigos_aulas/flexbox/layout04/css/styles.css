@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+.celulares {
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+.celulares > div {
+    display: flex;
+    flex-direction: column;
+}
+.celulares h1 {
+    text-align: center;
+    color: red;
+}
+.celulares h2 {
+    margin: 10px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+.celulares > div p {
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.celulares > div p, .celulares > div summary {
+    text-align: justify;
+}
+.celulares img {
+    width: 60%;
+}
+summary {
+    color: blue;
+}
+@media screen and (min-width: 1000px) {
+    .celulares > div {
+        flex-direction: row;
+    }
+    .celulares img {
+        width: 200px;
+    }
+    .celulares > div {
+        width: 1200px;
+        margin: auto;
+        margin-top: 30px;
+    }
+    .celulares > div div {
+        padding: 20px;
+    }
+    .celulares h1 {
+        font-size: 30px;
+    }
+}
