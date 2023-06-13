@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+.projetos {
+    background-color: rgb(227, 227, 227);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.projetos h2 {
+    text-align: center;
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.projetos p {
+    text-align: justify;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+.projetos img {
+    width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+    .projetos {
+        flex-direction: row;
+        text-align: center;
+    }
+    .projetos img {
+        width: 400px;
+    }
+    .projetos div {
+        padding: 20px;
+    }
+}
