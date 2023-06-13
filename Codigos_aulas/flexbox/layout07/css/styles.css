@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.celulares {
+    padding: 20px;
+}
+.celulares h1 {
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+.celulares > div {
+    display: flex;
+    flex-direction: column;
+}
+.celulares > div > div {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+.celulares > div > div div:nth-of-type(1) {
+    text-align: center;
+}
+.celulares > div p {
+    font-size: 12px;
+}
+.destaque {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+@media screen and (min-width: 1000px) {
+    .celulares > div {
+        width: 1200px;
+        margin: auto;
+    }
+    .celulares > div > div {
+        display: flex;
+        flex-direction: row;
+    }
+    .celulares h1 {
+        font-size: 28px;
+        text-align: center;
+        color: red;
+    }
+    .celulares > div p {
+        font-size: 14px;
+        margin-bottom:10px;
+    }
+    .celulares > div > div > div:nth-of-type(2) {
+        display:flex; 
+        flex-direction: column; 
+        justify-content: center;
+    }
+}
