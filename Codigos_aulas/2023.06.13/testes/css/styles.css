@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.secao1 {
+    border:3px solid red;
+    display: flex;
+    flex-direction: row;
+}
+.secao2 {
+    border:3px solid blue;
+    display: flex;
+    flex-direction: row;
+}
+.secao2 > div {
+    border:2px solid red;
+    display: flex;
+    flex-direction: row;
+}
+.secao3 > div{
+    border: 1px solid red;
+}
+.secao3 > div > div {
+    border: 1px solid red;
+}
+.secao4 > div:nth-of-type(2) {
+    border: 5px solid green;
+}
