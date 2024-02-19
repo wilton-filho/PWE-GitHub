@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin:0px;
+    padding:0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+header ul {
+    list-style: none;
+    padding:0px;
+    text-align: center;
+    background-color: #006680;
+}
+header ul li {
+    display: inline-block;
+}
+header a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+}
+header a:link, header a:visited {
+    color: white;
+}
+header a:hover {
+    background-color: white;
+    color: #006680;
+}
+header img {
+    width: 100%;
+}
+header h1, header h2 {
+    text-align: center;
+    margin: 20px 0px;
+}
+header h1 {
+    color: white;
+    font-size: 40px;
+    transition: all 0.5s;
+}
+header h1:hover {
+    letter-spacing: 5px;
+}
+header h2 {
+    color: yellow;
+}
+main section {
+    background-color: white;
+    padding: 30px;
+    width: 1000px;
+    margin:auto;
+}
+footer p {
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+.caixaCinza {
+    background-color: gray;
+}
