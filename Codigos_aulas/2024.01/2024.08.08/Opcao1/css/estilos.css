@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding:0px;
+}
+
+body {
+    margin-top:100px;
+}
+ul {
+    list-style: none;
+    padding: 0px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+ul a {
+    font-family: 'Oswald', sans-serif;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    padding: 10px;
+    padding-top: 55px;
+    display: inline-block;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center 10px;
+    transition: all 0.3s;
+    border-bottom: 3px solid black;
+}
+
+a.face {
+    background-image: url('../imagens/faceBlack.png');
+}
+
+a.face:hover {
+    background-image: url('../imagens/face.png');
+    border-bottom: 3px solid rgb(100, 157, 176);
+    color: rgb(100, 157, 176);
+}
+
+a.insta {
+    background-image: url('../imagens/instaBlack.png');
+}
+
+a.insta:hover {
+    background-image: url('../imagens/insta.png');
+    border-bottom: 3px solid rgb(186, 9, 186);
+    color: rgb(186, 9, 186);
+}
+
+a.maps {
+    background-image: url('../imagens/mapsBlack.png');
+}
+
+a.maps:hover {
+    background-image: url('../imagens/maps.png');
+    border-bottom: 3px solid green;
+    color: green;
+}
+
+a.twitter {
+    background-image: url('../imagens/twitterBlack.png');
+}
+
+a.twitter:hover {
+    background-image: url('../imagens/twitter.png');
+    border-bottom: 3px solid yellow;
+    color: yellow;
+}
+
+a.youtube {
+    background-image: url('../imagens/youtubeBlack.png');
+}
+
+a.youtube:hover {
+    background-image: url('../imagens/youtube.png');
+    border-bottom: 3px solid red;
+    color: red;
+}
+p {
+    font-size: 20px;
+    margin:30px;
+}
+nav {
+    position: fixed;
+    top:-50px;
+    width: 100%;
+    transition:all 1s;
+}
+nav:hover {
+    top:0px;
+}
