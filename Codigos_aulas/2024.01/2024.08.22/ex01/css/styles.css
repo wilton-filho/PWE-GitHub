@@ -1,0 +1,9 @@
+.armario {
+    border:5px solid black;
+    display: flex;
+    flex-direction: row; /* Armario ira organizar os itens na horizontal (linha: row). Se trocar "row" por "column" o armario ira ficar na vertical*/
+}
+.cxOrganizadora {
+    border: 5px solid pink;
+    width: 100%;
+}

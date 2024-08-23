@@ -1,0 +1,17 @@
+.container {
+    border:5px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.container > div:nth-of-type(1) { /*Regra a ser aplicada para o primeiro filho de .container*/
+    border: 5px solid pink;
+    width: 20%;
+}
+.container > div:nth-of-type(2) { /*Regra a ser aplicada para o primeiro filho de .container*/
+    border: 5px solid red;
+    width: 30%;
+}
+.container > div:nth-of-type(3) { /*Regra a ser aplicada para o primeiro filho de .container*/
+    border: 5px solid green;
+    width: 50%;
+}

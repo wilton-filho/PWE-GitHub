@@ -1,0 +1,9 @@
+.container {
+    border:5px solid black;
+    display: flex;
+    flex-direction: row;
+}
+.container > div { /*Regra a ser aplicada para filhos "div's" de container, ou seja, para as caixas organizadoras*/
+    border: 5px solid pink;
+    width: 100%;
+}
