@@ -1,0 +1,23 @@
+.container {
+    border:5px solid black;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width:1200px;
+    margin:auto; /* centraliza o container*/
+}
+.container > div:nth-of-type(1) { /*Regra a ser aplicada para o primeiro filho de .container*/
+    border: 5px solid rgb(83, 60, 255);
+    width: 20%;
+}
+.container > div:nth-of-type(2) { /*Regra a ser aplicada para o primeiro filho de .container*/
+    border: 5px solid red;
+    width: 30%;
+}
+.container > div:nth-of-type(3) { /*Regra a ser aplicada para o primeiro filho de .container*/
+    border: 5px solid green;
+    width: 50%;
+}
+body {
+    background-color: rgb(255, 215, 222);
+}
