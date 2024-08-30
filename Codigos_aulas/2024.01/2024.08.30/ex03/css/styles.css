@@ -10,7 +10,8 @@
     border: 2px solid black;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*Permite quebrar de linha*/
+    justify-content: center; /*Alinha as caixas organizadoras no centro (horizontalmente) */
 }
 /* Caixa organizadora */
 .introducao > div > div {
