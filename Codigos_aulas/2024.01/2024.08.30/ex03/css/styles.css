@@ -1,0 +1,36 @@
+/* Configuração global */
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Celular */
+.container {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+/* Caixa organizadora */
+.introducao > div > div {
+    border: 2px solid blue;
+    width: 100%;
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .introducao > div > div {
+        width: 50%;
+    }
+    .container {
+        flex-direction: row;
+    }
+}
+/* Desktop */
+@media screen and (min-width: 1024px) {
+    .container {
+        flex-direction: row;
+    }
+    .introducao > div > div {
+        width: 25%;
+    }
+}
