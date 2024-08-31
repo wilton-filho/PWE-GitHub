@@ -14,12 +14,13 @@
     justify-content: center; /*Alinha as caixas organizadoras no centro (horizontalmente) */
 }
 /* Caixa organizadora */
-.introducao > div > div {
+.introducao > div > div, .produtos > div > div {
     border: 2px solid blue;
     width: 100%;
 }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .introducao > div > div {
+    .introducao > div > div, .produtos > div > div {
         width: 50%;
     }
     .container {
@@ -33,5 +34,8 @@
     }
     .introducao > div > div {
         width: 25%;
+    }
+    .produtos > div > div {
+        width: 33.33%;
     }
 }
