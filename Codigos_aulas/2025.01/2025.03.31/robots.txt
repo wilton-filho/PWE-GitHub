@@ -1,0 +1,7 @@
+# Permite que todos os robôs acessem o site
+User-agent: *
+Disallow:
+
+# Bloqueia apenas o Googlebot de acessar imagens
+User-agent: Googlebot
+Disallow: /images/
