@@ -1,0 +1,20 @@
+/* p é o seletor */
+/* color é a propriedade */
+/* blue é o valor */
+/* p {color:blue;} é a regra*/
+/* {color:blue;} é a declaração de estilo */
+p {
+    color: blue;
+    background-color: pink;
+    font-family: arial;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h1 {
+    background-color: yellow;
+    color: blue;
+}

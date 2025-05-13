@@ -1,0 +1,12 @@
+#tituloPrincipal {
+    font-size: 70px;
+}
+.amarelo {
+    background-color: yellow;
+}
+p.azul {
+    background-color: blue;
+}
+p.verde {
+    background-color: green;
+}
