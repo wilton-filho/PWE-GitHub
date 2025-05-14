@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V Semana de Tecnologia da Informação - IFTM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-color: #f0fff4; /* Light green accent for hero, can be adjusted */
+        }
+        .iftm-green {
+            color: #008000; /* Standard green, adjust if specific IFTM green is known */
+        }
+        .iftm-green-bg {
+            background-color: #008000;
+        }
+        .iftm-light-green-bg {
+            background-color: #e6f7e6; /* Lighter green for accents */
+        }
+        .section-title {
+            border-left: 4px solid #008000;
+            padding-left: 0.75rem;
+        }
+         /* Custom styles for better visual appeal */
+        .btn-primary {
+            background-color: #008000; /* IFTM Green */
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #006400; /* Darker IFTM Green */
+        }
+        .card {
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            overflow: hidden; /* Ensures rounded corners apply to images too */
+        }
+        .card-image {
+            width: 100px; /* Fixed width for speaker images */
+            height: 100px; /* Fixed height for speaker images */
+            object-fit: cover;
+            border-radius: 50%; /* Circular images */
+            margin: 0 auto; /* Center image */
+        }
+        .speaker-card, .minicourse-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .speaker-card:hover, .minicourse-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body class="bg-white">
+
+    <header class="py-6 shadow-md">
+        <div class="container mx-auto px-6 flex justify-between items-center">
+            <img src="logoIFTM.png" alt="[Logótipo do IFTM]" class="h-16" onerror="this.onerror=null; this.src='https://placehold.co/200x60/cccccc/000000?text=IFTM+Logo';">
+            <nav>
+                <a href="#sobre" class="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">Sobre o Evento</a>
+                <a href="#palestrantes" class="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">Palestrantes</a>
+                <a href="#minicursos" class="text-gray-700 hover:text-green-600 px-3 py-2 rounded-md text-sm font-medium">Minicursos</a>
+                <a href="#inscricoes" class="btn-primary ml-4">Inscreva-se</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-bg py-12 md:py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold iftm-green mb-4">V Semana de Tecnologia da Informação (STI)</h1>
+            <p class="text-xl text-gray-700 mb-2">18 e 19 de Outubro de 2023</p>
+            <p class="text-lg text-gray-600 mb-8">IFTM Campus Uberlândia Centro</p>
+            <p class="text-md text-red-600 mb-8 font-semibold">(Atenção: As datas do evento são de 2023. Esta é uma página modelo.)</p>
+            <a href="#inscricoes" class="btn-primary text-lg">Participe!</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="py-12 md:py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8 section-title">Sobre o Evento</h2>
+            <div class="text-gray-700 space-y-4 text-lg leading-relaxed">
+                <p>A V Semana de Tecnologia da Informação (STI) é um evento integrado à Semana Nacional de Ciência e Tecnologia (SNCT), realizado no IFTM campus Uberlândia Centro.</p>
+                <p><strong>Dia 1 (18/10):</strong> Encontro com profissionais de Tecnologia da Informação e Comunicação de Uberlândia (MG). Três especialistas apresentarão temas atuais da área de computação no formato TED Talk (19h às 22h, no auditório do IFTM).</p>
+                <p><strong>Dia 2 (19/10):</strong> Serão oferecidos quatro minicursos (19h às 22h) nos laboratórios de informática do IFTM campus Uberlândia Centro, com vagas limitadas.</p>
+                <p><strong>Inscrições:</strong> Para participar da STI, é necessário inscrever-se primeiramente na SNCT. Após essa etapa, o participante poderá se inscrever nos eventos da V STI (palestras e minicursos). Cada participante pode se inscrever em apenas um minicurso. A inscrição no TED Talk garante participação nas três palestras.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="palestrantes" class="py-12 md:py-16 iftm-light-green-bg">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-10 section-title">Palestrantes (TED Talks)</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="speaker-card card p-6 text-center">
+                    <img src="https://placehold.co/100x100/EBF8FF/1A202C?text=HR" alt="[Foto de Helio Rubens Soares]" class="card-image mb-4">
+                    <h3 class="text-xl font-semibold iftm-green mb-2">Helio Rubens Soares</h3>
+                    <p class="text-sm text-gray-500 mb-1">Líder de Arquitetura de Soluções na AWS</p>
+                    <p class="font-medium text-gray-700 mb-3">Tema: Uso de cloud computing na jornada de sustentabilidade das empresas</p>
+                    <p class="text-sm text-gray-600 text-left"><strong>Resumo:</strong> Sustentabilidade está na lista de prioridades de líderes de tecnologia e de empresas. Computação em nuvem tem um papel fundamental na jornada de melhorar e medir as métricas de sustentabilidade de TI. Como isto acontece? Como dar o 1º passo? Como a AWS está ajudando empresas no mundo todo a ser mais sustentáveis?</p>
+                </div>
+                <div class="speaker-card card p-6 text-center">
+                    <img src="https://placehold.co/100x100/EBF8FF/1A202C?text=HV" alt="[Foto de Helton Valentini]" class="card-image mb-4">
+                    <h3 class="text-xl font-semibold iftm-green mb-2">Helton Valentini</h3>
+                    <p class="text-sm text-gray-500 mb-1">Sócio-diretor na Ene Soluções</p>
+                    <p class="font-medium text-gray-700 mb-3">Tema: Seja o dono da sua carreira</p>
+                    <p class="text-sm text-gray-600 text-left"><strong>Resumo:</strong> Um framework para avaliar e direcionar sua carreira. Não importa em qual estágio você esteja.</p>
+                </div>
+                <div class="speaker-card card p-6 text-center">
+                    <img src="https://placehold.co/100x100/EBF8FF/1A202C?text=AF" alt="[Foto de Almir Garcia Fernandes]" class="card-image mb-4">
+                    <h3 class="text-xl font-semibold iftm-green mb-2">Almir Garcia Fernandes</h3>
+                    <p class="text-sm text-gray-500 mb-1">Professor no curso de Direito na UFU</p>
+                    <p class="font-medium text-gray-700 mb-3">Tema: A Lei Geral de Proteção de Dados (LGPD) na Internet</p>
+                    <p class="text-sm text-gray-600 text-left"><strong>Resumo:</strong> (Resumo da palestra não fornecido no documento original, pode ser adicionado aqui se disponível).</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="minicursos" class="py-12 md:py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-10 section-title">Minicursos</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="minicourse-card card p-6">
+                    <h3 class="text-xl font-semibold iftm-green mb-2">Implementando um assistente com IA generativa</h3>
+                    <p class="text-sm text-gray-500 mb-3">Com: Henrique Moreira Amorim e Elifazio Bernardes da Silva</p>
+                    <p class="text-gray-700 mb-3">Entendendo os conceitos básicos de IA generativa, seus exemplos e criação de um assistente utilizando a API do GPT.</p>
+                    <p class="text-sm text-gray-600"><strong>Pré-requisito:</strong> Não há.</p>
+                </div>
+                <div class="minicourse-card card p-6">
+                    <h3 class="text-xl font-semibold iftm-green mb-2">GitHub Copilot: Seu Assistente de IA para Programação</h3>
+                    <p class="text-sm text-gray-500 mb-3">Com: Gledson Rodrigues de Oliveira Junior</p>
+                    <p class="text-gray-700 mb-3">Aprenda a utilizar o GitHub Copilot, um assistente de codificação alimentado por IA, para melhorar seu código e sua produtividade.</p>
+                    <p class="text-sm text-gray-600"><strong>Pré-requisito:</strong> Conhecimento de lógica de programação.</p>
+                </div>
+                <div class="minicourse-card card p-6">
+                    <h3 class="text-xl font-semibold iftm-green mb-2">Criando e gerenciando containers com o Docker</h3>
+                    <p class="text-sm text-gray-500 mb-3">Com: Marcus Adriano Ferreira Pereira</p>
+                    <p class="text-gray-700 mb-3">O Docker revolucionou a maneira como desenvolvedores, administradores de sistemas e equipes de operações criam, implantam e gerenciam aplicativos. Dê os primeiros passos no mundo do Docker.</p>
+                    <p class="text-sm text-gray-600"><strong>Pré-requisito:</strong> Conhecimento básico em programação (desejado básico em programação web).</p>
+                </div>
+                 <div class="minicourse-card card p-6 border-2 border-dashed border-gray-300 flex flex-col justify-center items-center">
+                    <h3 class="text-xl font-semibold text-gray-500 mb-2">Em breve: Mais um Minicurso!</h3>
+                    <p class="text-gray-400 text-center">Detalhes sobre o quarto minicurso serão divulgados em breve.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="inscricoes" class="py-12 md:py-20 iftm-green-bg text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-6">Pronto para Participar?</h2>
+            <p class="text-lg mb-8">As inscrições para a V STI são feitas primeiramente através da inscrição na Semana Nacional de Ciência e Tecnologia (SNCT). Garanta sua vaga!</p>
+            <a href="#" class="bg-white iftm-green hover:bg-gray-100 font-bold py-3 px-8 rounded-lg text-lg shadow-md transition duration-300">Inscreva-se na SNCT</a>
+            <p class="mt-4 text-sm">(O link de inscrição será disponibilizado aqui - Lembre-se que o evento original ocorreu em 2023)</p>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <img src="logoIFTM.png" alt="[Logótipo do IFTM]" class="h-12 mx-auto mb-4" onerror="this.onerror=null; this.src='https://placehold.co/150x50/ffffff/000000?text=IFTM';">
+            <p>&copy; 2023 Instituto Federal do Triângulo Mineiro (IFTM). Todos os direitos reservados.</p>
+            <p>IFTM Campus Uberlândia Centro</p>
+            <p class="text-sm text-gray-400 mt-2">Esta página é um modelo de divulgação de evento.</p>
+        </div>
+    </footer>
+
+    </body>
+</html>
