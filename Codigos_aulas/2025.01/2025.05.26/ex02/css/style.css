@@ -1,0 +1,22 @@
+/* Estado: link acabou de ser carregado (nunca foi clicado) */
+/* Estado: o link foi visitado */
+a:link, a:visited {
+    background-color: pink;
+    color: white;
+}
+
+/* Estado: o usuario está interagindo com ele (mouse sobre ele) */
+a:hover {
+    background-color: green;
+    color:aqua;
+}
+
+/* Estado: o link está ativo, ou seja, estado clicado   */
+a:active {
+    background-color: red;
+    color:pink;
+}
+
+
+
+
