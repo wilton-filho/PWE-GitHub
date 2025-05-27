@@ -1,0 +1,37 @@
+p {
+    background-color: yellow;
+    color:blue;
+    text-decoration: underline;
+    font-style: italic;
+}
+h2 {
+    color: green;
+}
+.vermelho {
+    color:red;
+}
+.negrito {
+    font-weight: bold;
+}
+.caixaAgenda {
+    /* border-left: 10px solid red; */
+    /* border-right: 2px solid black; */
+    border:1px solid black;
+    width: 200px;
+    background-color: rgb(224, 224, 224);
+    /* 50px para top e bottom e 20px para left e right */
+    /* margin: 50px 20px; */
+    margin:10px 15px 20px 5px;
+    /* margin-top:10px;
+    margin-right:50px;
+    margin-bottom:100px;
+    margin-left:20px; */
+    /* padding:20px; */
+}
+.caixaAgenda h2, .caixaAgenda ul {
+    margin:0px;
+}
+.caixaAgenda h2 {
+    color: purple;
+    font-size:16px;
+}
