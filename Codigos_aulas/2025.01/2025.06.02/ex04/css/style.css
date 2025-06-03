@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.container div {
+    width: 100%;
+    border: 2px solid black;
+}
+
+/*Pinta o fundo da caixa 1 da seção "ultimasNoticias"
+ultimasNoticias > div (filho da seção "ultimasNoticias"
+*/
+.ultimasNoticias > div div:nth-of-type(1) {
+    background-color: yellow;
+}
+
+.iftmMidia > div div:nth-of-type(2) {
+    background-color: blue;
+} 
+
+.enem > div div:nth-of-type(even) {
+    background-color: pink;
+}
