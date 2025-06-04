@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container > div {
+    width: 25%;
+    border:1px solid black;
+    padding: 10px;
+}
+
+.secao {
+    padding: 10px;
+    background-color: white;
+}
