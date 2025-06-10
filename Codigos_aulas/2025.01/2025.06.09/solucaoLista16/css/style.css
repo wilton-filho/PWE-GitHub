@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding: 0px;
+}
+body {
+    background-color: black;
+}
+section {
+    width: 1200px;
+    background-color: white;
+    margin:auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container > div {
+    width: 250px;
+    margin: 30px 20px;
+}
+
+.celulares p, .celulares h2 {
+    text-align: center;
+}
+
+.celulares h2 {
+    color: red;
+    padding: 15px 0px;
+}
+
+.celulares > div > div {
+    text-align: center;
+}
+
+.celulares > div > div p {
+    text-align: justify;
+}
+
+.celulares > div > div summary {
+    text-align: left;
+    color: blue;
+    margin: 15px 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
