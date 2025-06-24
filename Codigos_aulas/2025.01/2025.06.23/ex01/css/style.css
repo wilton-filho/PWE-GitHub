@@ -1,0 +1,30 @@
+/* Mobile: até 767px
+Tablet: 768px até 1023px
+Desktop: acima de 1023px */
+
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+/* Versão: Mobile */
+.box {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: yellow;
+}
+
+/*Versão: Tablet*/
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .box {
+        background-color: pink;
+    }
+}
+/* Versão: Desktop */
+@media screen and (min-width:1024px) {
+     .box {
+        background-color: green;
+        color: white;
+    }
+}

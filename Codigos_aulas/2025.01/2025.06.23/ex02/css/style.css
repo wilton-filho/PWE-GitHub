@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+/* Versão: Mobile */
+.agendaReitor {
+    background-color: darkblue;
+}
+
+.agendaReitor > div {
+    display: flex;
+    flex-direction: column;
+    border:1px solid yellow;
+}
+
+.agendaReitor > div > div {
+    border:1px solid black;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    transition: all 0.5s;
+}
+
+.agendaReitor > div > div:hover {
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.agendaReitor > div > div p {
+    color: darkblue;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Versão: Desktop */
+@media screen and (min-width: 1024px) {
+    .agendaReitor > div {
+        /* flex-direction: row;
+        flex-wrap: wrap; */
+        flex-flow: row wrap;
+        justify-content: center;
+        width: 1200px;
+        margin:auto;
+    }
+    .agendaReitor > div > div {
+        width: 300px;
+    }
+    .agendaReitor > div > div p {
+        font-size:18px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+}
