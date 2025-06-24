@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+body {
+    background-color: black;
+    font-family: arial;
+}
+
+section {
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
+.celulares h2 {
+    text-align: center;
+    background-color: darkblue;
+    padding: 20px;
+    color: white;
+}
+
+.celulares > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.celulares > div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.celulares h3 {
+    color: red;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.valorDestaque {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+/* .celulares > div > div > div {
+} */

@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+header nav {
+    background-color: rgba(49, 49, 245, 0.5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top:-45px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+header nav:hover {
+    top:0px;
+    position:
+}
+
+body {
+    padding-top: 15px;
+}
