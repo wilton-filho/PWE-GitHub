@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(34, 34, 34);
+    font-family: arial;
+}
+
+header nav {
+    background-color: darkblue;
+    border-bottom: 5px solid yellow;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul a:link,
+header nav ul a:visited {
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+}
+
+header nav ul a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+section {
+    padding: 20px;
+    background-color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+}
+
+.introducao>div>div {
+    padding: 10px;
+}
+
+section p {
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+h1,
+h2 {
+    color: orangered;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    ;
+}
+
+.introducao h1 {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 24px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.celulares>div>div {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.celulares>div details {
+    text-align: left;
+    color: orangered;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.celulares>div>div img {
+    width: 50%;
+}
+
+.sobrenos img {
+    width: 20%;
+}
+
+.sobrenos ul {
+    margin: 40px 20px;
+}
+
+button {
+    background-color: rgb(55, 154, 31);
+    padding: 10px 20px;
+    border: 0px;
+    color: white;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+    color: black;
+}
+
+iframe {
+    margin: 30px 0px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+@media screen and (min-width:1024px) {
+    header nav ul {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    section {
+        width: 1200px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+
+    .introducao {
+        padding: 50px 30px;
+    }
+
+    .introducao>div>div {
+        width: 50%;
+    }
+
+    h1,
+    h2 {
+        color: blue;
+    }
+
+    .celulares>div>div {
+        text-align: center;
+        padding: 30px;
+    }
+
+    .celulares>div>div img {
+        width: 80%;
+    }
+
+    .sobrenos>div>div {
+        width: 33%;
+        padding: 50px 20px;
+    }
+
+    .sobrenos>div>div:nth-of-type(1) {
+        text-align: center;
+    }
+
+    .sobrenos img {
+        width: 60%;
+    }
+
+    .faleconosco {
+        padding: 50px;
+    }
+}
