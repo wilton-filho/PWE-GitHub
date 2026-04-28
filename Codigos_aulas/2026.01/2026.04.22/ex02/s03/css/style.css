@@ -1,0 +1,26 @@
+/* .caixa {
+    border: 5px dashed blue;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    margin: 30px;
+} */
+
+* {
+    margin:0px;
+}
+
+.caixa {
+    border: 5px dashed blue;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    /*margin: 15px 30px; /*Top e Bottom, Left e Right*/
+    /* margin: 5px 40px 100px 10px; */ /*Top Right Bottom Left*/
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    margin-left: 30px; */
+    /* margin: 30px; */
+}

@@ -1,0 +1,11 @@
+/*p, b { /*Ex de agrupamento de seletores: todo p e b*/
+    /* color: red; */
+/* } */
+
+p b { /*Ex de seletor contextual: todo b dentro de p*/
+    color: red;
+}
+
+b {
+    color: blue !important;
+}

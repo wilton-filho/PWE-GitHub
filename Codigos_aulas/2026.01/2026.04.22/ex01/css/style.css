@@ -1,0 +1,50 @@
+h1 {
+    /*Tamanho da fonte: 25 pixels*/
+    font-size: 25px;
+
+    /* Estilo do texto: negrito */
+    font-weight: bold;
+
+    /* Tipo de fonte: verdana */
+    font-family: Verdana;
+    
+    /* Espaçamento entre letras: 4 pixels */
+    letter-spacing: 4px;
+
+    /* Borda inferior: 2 pixels de espessura, sólida e vermelha */
+    border-bottom: 2px solid red;
+
+    /* border: 2px solid red; */
+    /* border-radius: 10px; */
+    /* border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px; */
+
+    /* Cor de fundo do texto: amarelo */
+    background-color: yellow;
+
+    /* Cor do texto: verde escuro */
+    color: darkgreen;
+}
+
+p {
+    /* Cor de fundo do texto: cinza claro */
+    background-color: rgb(224, 224, 224);
+
+    /* Tamanho da fonte: 18 pixels */
+    font-size: 18px;
+
+    /* Cor do texto: verde */
+    color: green;
+
+    /* Espaçamento entre linhas: duplo */
+    line-height: 200%; /*2em*/
+
+    /* Estilo do texto: itálico */
+    font-style: italic;
+
+    /* Tipo de fonte: tahoma */
+    font-family: tahoma;
+
+    /* Alinhamento do texto: centralizado */
+    text-align: center;
+}
