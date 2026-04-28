@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Press Start 2P";
+}
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none; /*retira o sublinhado*/
+    padding: 10px 20px;
+    display: inline-block;
+}
+a:hover {
+    color:yellow;
+    background-color: rgb(97, 122, 97);
+}
+a:active {
+    color: black;
+    background-color: rgb(239, 239, 165);
+}
+ul {
+    background-color: darkgreen;
+    display: flex; /*Defino o UL como container*/
+    flex-direction: row; /*organiza os itens do menu na horizontal*/
+    justify-content: center; /*centraliza as opcoes do menu*/
+    padding: 0px; /*tira o espaço dos bullets*/
+}
+
+ul li {
+    list-style: none; /*tira os bullets da lista*/
+    border-bottom:4px solid darkgreen;
+    border-top:4px solid darkgreen;
+}
+
+ul li:hover {
+    border-bottom:4px solid yellow;
+    border-top:4px solid yellow;
+}
