@@ -1,0 +1,28 @@
+/*h1, h2, p {
+    font-family: arial;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    background-color: rgb(226, 226, 226);
+}
+
+p.vermelho {
+    color: red;
+}
+
+.azul {
+    color: blue;
+}
+*/
+.verde {
+    color: green;
+}
+
+.center {
+    text-align: center;
+}

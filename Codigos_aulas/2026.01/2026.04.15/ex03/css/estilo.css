@@ -1,0 +1,13 @@
+.box {
+    background-color: rgb(227, 227, 227);
+    border-left: 10px double black;
+    border-right: 10px solid black;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    /* border: 3px solid blue; */
+    /* padding-top:50px; */
+    /* padding-left:50px; */
+    padding: 20px;
+    margin: 50px;
+    color: blue;
+}

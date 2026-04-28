@@ -1,0 +1,14 @@
+p {
+    background-color: rgb(231, 231, 231);
+    text-align: justify;
+    line-height: 1.5em;
+    color: green;
+}
+
+p.vermelho {
+    color: red;
+}
+
+p.azul {
+    color: blue;
+}
