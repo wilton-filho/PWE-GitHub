@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+a:link, a:visited {
+    color: white;
+    text-decoration: none; /*retira o sublinhado*/
+    padding: 10px 20px;
+    display: inline-block;
+}
+a:hover {
+    color:black;
+    background-color: white;
+}
+a:active {
+    color: black;
+}
+ul {
+    background-color: darkgreen;
+    display: flex; /*Defino o UL como container*/
+    flex-direction: row; /*organiza os itens do menu na horizontal*/
+    justify-content: center; /*centraliza as opcoes do menu*/
+    padding: 0px; /*tira o espaço dos bullets*/
+}
+
+ul li {
+    list-style: none; /*tira os bullets da lista*/
+}
