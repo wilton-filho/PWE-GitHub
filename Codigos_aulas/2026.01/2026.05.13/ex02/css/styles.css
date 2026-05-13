@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0px;
+    padding:0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+header ul {
+    list-style: none;
+    background-color: #006680;
+    text-align: center;
+}
+header ul li {
+    display:inline-block;
+}
+header a:link, header a:visited {
+    text-decoration: none;
+    color: white;
+    padding: 20px 30px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+header a:hover {
+    background-color: white;
+    color:black;
+}
+header img {
+    width:100%;
+}
+header h1, header h2 {
+    margin: 30px 0px;
+    text-align: center;
+}
+header h1 {
+    font-size: 40px;
+    transition: all 0.5s;
+    color:white;
+}
+header h1:hover {
+    letter-spacing: 5px;
+}
+header h2 {
+    color: yellow;
+}
+main section {
+    padding: 30px;
+    width: 1200px;
+    margin:auto;
+}
+main section p {
+    line-height: 1.5em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+main section:nth-child(even) {
+    background-color: lightgray;
+}
+main section:nth-child(odd) {
+    background-color: white;
+}
+main section a:link, main section a:visited {
+    color: blue;
+    text-decoration: none;
+}
+footer {
+    background-color: black;
+    padding: 40px;
+}
+footer p {
+    color:white;
+    text-align: center;
+}
+.destaque {
+    color: red;
+    font-weight: bold;
+    margin-top:20px;
+}
+main section ul li {
+    padding:5px;
+    font-style: italic;
+}
+main section ul {
+    margin-left: 50px;
+}
