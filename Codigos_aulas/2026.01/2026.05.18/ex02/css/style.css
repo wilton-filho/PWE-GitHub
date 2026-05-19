@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: arial;
+}
+
+section:nth-of-type(odd) {
+    background-color: rgb(221, 221, 221);
+}
+
+.container {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    padding: 50px;
+    gap: 40px;
+}
+
+.container1 {
+    justify-content: center;
+    
+}
+
+.container1 div {
+    width:33.3%;
+    text-align: center;
+}
+
+.container1 p {
+    text-align: justify;
+    line-height: 1.5em;
+    font-size:14px;
+}
+
+.container1 h2 {
+    margin: 20px 0px;
+}
+
+.container1 img {
+    width: 35%;
+}
+
+.container2 {
+    flex-direction: column;
+}
+
+.container2 > div {
+    display: flex;
+    flex-direction: row;
+}
+
+.container2 > div:nth-of-type(odd) {
+    flex-direction: row;
+}
+.container2 > div:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+.container2 img {
+    width: 250px;
+}

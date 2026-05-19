@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto;
+    gap: 40px;
+    padding: 30px;
+}
+.tecnologias > div > div {
+    text-align: center;
+}
+.tecnologias p {
+    text-align: justify;
+}
+.tecnologias h2 {
+    margin: 25px 0px;
+}
+.tecnologias img {
+    width: 90px;
+}
+
+/*Seções ímpares: cinza*/
+section:nth-of-type(odd) {
+    background-color: rgb(212, 212, 212);
+}
+
+/*Seções pares: branco*/
+section:nth-of-type(even) {
+    background-color: white;
+}
