@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* main {
+    margin-top:10px;
+} */
+.box {
+    border:1px solid black;
+    text-align: center;
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    background-color: rgba(254, 254, 214, 0.9);
+    /* position:absolute; */
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    /* top:0px; */
+    /* left:0px; */
+    /* top:60px; */
+    /* top: 20px; */
+    /* left: 20px; */
+    /* bottom: 0px; */
+    /* right: 10px; */
+    /* cursor:pointer; */
+    /* transition: all 0.5s; */
+}
+/* .box:hover {
+    top:0px;
+} */
