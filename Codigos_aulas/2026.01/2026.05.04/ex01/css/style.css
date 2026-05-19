@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+.box {
+    border: 1px solid black;
+    width: 800px;
+    margin: auto;
+    padding: 15px;
+    column-count: 3;
+    border-radius: 15px;
+}
+.box:hover {
+    box-shadow: 5px 5px 10px gray;
+    cursor: pointer;
+}
+
+/*.box2 {
+    background-color: gray;
+    width:200px;
+    border: 2px solid black;
+    padding: 10px;
+}*/
+

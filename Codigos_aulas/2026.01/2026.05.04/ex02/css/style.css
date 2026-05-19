@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+form {
+    margin: 50px;
+}
+input[type="button"] {
+    background: linear-gradient(0deg, #068426 0%, #ffffff 100%);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+input[type="button"]:hover {
+    background-color: rgb(20, 157, 20);
+    box-shadow: 2px 2px 4px gray;
+    cursor: pointer;
+}
+input[type="button"]:active {
+    transform: scale(0.9);
+    /* transform: rotate(360deg); */
+    /* transform: translateX(10px); */
+    /* transform: translateX(10px) scale(0.9) rotate(45deg); */
+}
