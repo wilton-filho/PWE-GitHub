@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1200px;
+    margin: auto;
+    gap: 15px;
+}
+
+.container > div {
+    border:2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.container > div > div {
+    border:1px solid black;
+    display: flex;
+    flex-direction: row;
+    alu
+}
+
