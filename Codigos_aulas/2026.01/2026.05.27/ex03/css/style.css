@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container > div {
+    border: 1px solid black;
+    /* flex-grow: 1; */
+    /* flex-basis: 0; */
+    padding: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+    .secao2 > div > div:nth-of-type(2) {
+        background-color: pink;
+        /* flex-grow: 2; */
+    }
+    /*Como são 4 caixas dentro do conteiner dessa seção, cada 1 vai ter 25% de largura*/
+    .secao1 > div > div {
+        width: 25%;
+    }
+    /*Todas as 3 caixas dentro da seção 2 vao ter 25% de largura*/
+    .secao2 > div > div {
+        width: 25%;
+    }
+    /*Altero a largura da caixa 2/3 para 50%, complentando assim 100% de largura do somatorio das 3 caixas*/
+    .secao2 > div > div:nth-of-type(2) {
+        width: 50%;
+    }
+
+}
