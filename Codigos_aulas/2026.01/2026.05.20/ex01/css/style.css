@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+    margin: auto;
+    gap: 40px;
+    padding: 30px;
+}
+
+.container > div {
+    flex-grow: 1;
+}
+
+.tecnologias > div > div {
+    text-align: center;
+}
+.tecnologias p {
+    text-align: justify;
+}
+.tecnologias h2 {
+    margin: 25px 0px;
+}
+.tecnologias img {
+    width: 90px;
+}
+
+/*Seções ímpares: cinza*/
+section:nth-of-type(odd) {
+    background-color: rgb(212, 212, 212);
+}
+
+/*Seções pares: branco*/
+section:nth-of-type(even) {
+    background-color: white;
+}
+
+.produtos > div {
+    flex-direction: column;
+}
+
+.produtos > div > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/*Filho impar:imagem do lado direito*/
+.produtos > div > div:nth-of-type(odd) {
+    flex-direction: row;
+}
+
+/*Filho par: imagem do lado esquerdo*/
+.produtos > div > div:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+
+.produtos img {
+    width: 350px;
+}
+
+.tituloSecao {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 2px solid red;
+    padding: 25px 0px 10px 0px;
+    font-family: arial;
+    width:200px;
+    margin:auto !important;
+}
